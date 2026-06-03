@@ -44,12 +44,12 @@ Verificação visual da interface em estado inicial, modo Personal, mapa, tarifa
 | L14 | Texto de acessórios em letras minúsculas indevidamente | [❌ REPROVADO](https://drive.google.com/file/d/1LjlXc_fvjjYilhNoqCSg7dmsK_eXW_FS/view?usp=drive_link) |
 | L15 | Info de km/duração ausente próxima ao botão "RESERVAR" | [❌ REPROVADO](https://drive.google.com/file/d/1Z8LzMKZeDxfqF268Jhcb13d81zeFASMd/view?usp=drive_link) |
 | L11-CDM | Botão "Adicionar Carteira" sem símbolo ">" | [❌ REPROVADO](https://drive.google.com/file/d/1v6hq-i0-4EoOX3hyOjTxlypAzsruiKLo/view?usp=drive_link) |
-| L12-CDM | Campo sem destaque verde/ícone de verificação após carteira válida | ❌ REPROVADO |
-| L13-POP | Pop-up exibe apenas "O carro foi reservado" sem dados completos | ❌ REPROVADO |
-| L14-POP | Nome do veículo ausente na confirmação | ❌ REPROVADO |
-| L15-POP | Ilustração sem frisos no pop-up de confirmação | ❌ REPROVADO |
-| L16-POP | Botão "Cancelar" inativo na tela de confirmação | ❌ REPROVADO |
-| L17-POP | Custo não exibido no formato "Custo – $X" | ❌ REPROVADO |
+| L12-CDM | Campo sem destaque verde/ícone de verificação após carteira válida | [❌ REPROVADO](https://drive.google.com/file/d/1iH6RJHUzh4omiPOle642xts5GK68XIG1/view?usp=drive_link) |
+| L13-POP | Pop-up exibe apenas "O carro foi reservado" sem dados completos | [❌ REPROVADO](https://drive.google.com/file/d/1KKtFbjLpBQAIsQn8A7hOHpC9ZA2TdTJs/view?usp=drive_link) |
+| L14-POP | Nome do veículo ausente na confirmação | [❌ REPROVADO](https://drive.google.com/file/d/1nbOBK_bw3RWm3oh_0fdltduXzs8N9HzH/view?usp=drive_link) |
+| L15-POP | Ilustração sem frisos no pop-up de confirmação | [❌ REPROVADO](https://drive.google.com/file/d/1WVnLCUSToB4_3gmAvCzg41lhEojcmNwL/view?usp=drive_link) |
+| L16-POP | Botão "Cancelar" inativo na tela de confirmação | [❌ REPROVADO](https://drive.google.com/file/d/17uaJ0rGu_XBLxR35oPo8D1HtX0x4ZOeJ/view?usp=drive_link) |
+| L17-POP | Custo não exibido no formato "Custo – $X" | [❌ REPROVADO](https://drive.google.com/file/d/196sJ-rD-D_fW5MtXBDKRhCr3w0fdkqpW/view?usp=drive_link) |
 | L18 | Pop-up de cancelamento exibe mensagem correta | 🔒 BLOQUEADO |
 | L19 | Mensagem de corrida cancelada exibida corretamente | 🔒 BLOQUEADO |
  
