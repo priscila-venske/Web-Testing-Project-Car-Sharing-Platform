@@ -29,7 +29,7 @@ Verificação visual da interface em estado inicial, modo Personal, mapa, tarifa
 | ID | Descrição resumida | Resultado |
 |----|--------------------|-----------|
 | L1 | Exibe logotipo Urban.Routes | ✅ APROVADO |
-| L2 | Exibe texto "PLATAFORMA" | ❌ REPROVADO |
+| L2 | Exibe texto "PLATAFORMA" | [❌ REPROVADO](https://github.com/priscila-venske/Web-Testing-Project-Car-Sharing-Platform) |
 | L3 | Botão vermelho (De) e azul (Para) | ✅ APROVADO |
 | L4 | Frase "Carshering~$ X Duração: X min" — erro ortográfico e de formatação | ❌ REPROVADO |
 | L5 | Layout do botão "Reservar" divergente do especificado | ❌ REPROVADO |
