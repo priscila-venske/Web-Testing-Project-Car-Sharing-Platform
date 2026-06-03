@@ -163,7 +163,17 @@ Cada bug reprovado possui um relatório individual em formato PNG com os campos:
 Projeto desenvolvido como parte do programa de formação em **QA (Quality Assurance)** — TripleTen.
  
 ---
- 
+
+### ✅ Atribuição aprovada
+
+![Aprovação do projeto](./Web_Testing_Project___Car_Sharing_Platform_APROVAÇÃO.png)
+
+> *"Você praticou como analisar requisitos técnicos, aplicou técnicas de design de teste  
+> com classes de equivalência e valores de limite, e demonstrou habilidade em compor casos de teste."*  
+> — TripleTen Code Review
+
+---
+
 ## 📄 Licença
  
 Este repositório é de uso educacional. Os dados e capturas de tela pertencem ao ambiente de testes do curso.
