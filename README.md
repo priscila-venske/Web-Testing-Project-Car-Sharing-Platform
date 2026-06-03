@@ -166,7 +166,7 @@ Projeto desenvolvido como parte do programa de formação em **QA (Quality Assur
 
 ### ✅ Atribuição aprovada
 
-![Aprovação do projeto](./Web_Testing_Project___Car_Sharing_Platform_APROVAÇÃO.png)
+![Aprovação do projeto](https://drive.google.com/file/d/1l--Egh-m6dZV4n6woCF_ijHBirmgA1jp/view?usp=drive_link)
 
 > *"Você praticou como analisar requisitos técnicos, aplicou técnicas de design de teste  
 > com classes de equivalência e valores de limite, e demonstrou habilidade em compor casos de teste."*  
