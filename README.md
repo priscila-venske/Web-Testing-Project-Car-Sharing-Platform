@@ -64,26 +64,26 @@ Validação dos campos e comportamentos da janela de pagamento.
 | P1 | Campo exibido vazio no estado inicial | ✅ APROVADO |
 | P2 | Exige ao menos 1 cartão para concluir reserva | ✅ APROVADO |
 | P3 | Sem restrição de quantidade de cartões | ✅ APROVADO |
-| P4 | Últimos 4 dígitos do cartão não exibidos após adição | ❌ REPROVADO |
+| P4 | Últimos 4 dígitos do cartão não exibidos após adição | [❌ REPROVADO](https://drive.google.com/file/d/1DjixQs-s0CcdQGE19o2wzCiFG3Ci2NPW/view?usp=drive_link) |
 | P5 | Botão "Cancelar" fecha janela de cadastro | ✅ APROVADO |
 | P6 | Botão "X" fecha janela de cadastro | ✅ APROVADO |
 | P7 | Formato nnnn nnnn nnnn aceito | ✅ APROVADO |
-| P8 | Campo aceita caracteres não numéricos | ❌ REPROVADO |
-| P9 | Validação de intervalo 0000–9999 por bloco não funciona | ❌ REPROVADO |
-| P10 | Espaços não inseridos automaticamente ao sair do campo | ❌ REPROVADO |
+| P8 | Campo aceita caracteres não numéricos | [❌ REPROVADO](https://drive.google.com/file/d/1-rnKBOl6AKc9rCh81nzUfHzVpWK_zNMS/view?usp=drive_link) |
+| P9 | Validação de intervalo 0000–9999 por bloco não funciona | [❌ REPROVADO](https://drive.google.com/file/d/1CkPsu4YbmCAdzYEcKWZ3W75uaUf08S4B/view?usp=drive_link) |
+| P10 | Espaços não inseridos automaticamente ao sair do campo | [❌ REPROVADO](https://drive.google.com/file/d/1xHJrMFzVzd_njlV1D9xW-0L-wt7Dj4ye/view?usp=drive_link) |
 | P11 | Botão "Adicionar" inativo com menos de 12 símbolos | ✅ APROVADO |
-| P12 | Campo permite inserir mais de 12 símbolos | ❌ REPROVADO |
+| P12 | Campo permite inserir mais de 12 símbolos | [❌ REPROVADO](https://drive.google.com/file/d/1e4p-ET9CwXTHY4dc-0uu9P6VnlK9xkE5/view?usp=drive_link) |
 | P13 | Formato do código: 2 símbolos | ✅ APROVADO |
 | P14 | Código aceita somente números | ✅ APROVADO |
-| P15 | Campo "Código" permite inserir "00" | ❌ REPROVADO |
+| P15 | Campo "Código" permite inserir "00" | [❌ REPROVADO](https://drive.google.com/file/d/1qXvaARv9fqO-blRuBTtZToeCiooTd9XG/view?usp=drive_link) |
 | P16–P19 | Valores 01, 02, 98, 99 aceitos corretamente | ✅ APROVADO |
-| P20 | Campo "Código" permite inserir "100" | ❌ REPROVADO |
-| P21 | Botão "Adicionar" ativo com menos de 2 símbolos no código | ❌ REPROVADO |
-| P22 | Campo aceita caracteres fora dos requisitos | ❌ REPROVADO |
+| P20 | Campo "Código" permite inserir "100" | [❌ REPROVADO](https://drive.google.com/file/d/1K-CTt2UD_O4a--4DGHXG3e9xqEbWRdJQ/view?usp=drive_link) |
+| P21 | Botão "Adicionar" ativo com menos de 2 símbolos no código | [❌ REPROVADO](https://drive.google.com/file/d/1SMIR3AQrhYn4gU4-vXZbxNOjPh__dElq/view?usp=drive_link) |
+| P22 | Campo aceita caracteres fora dos requisitos | [❌ REPROVADO](https://drive.google.com/file/d/1f4ZMgvmx6QXi5joyGAW_kkYCrtUO5Qi9/view?usp=drive_link) |
 | P23 | Cartão e código válidos habilitam botão "Adicionar" | ✅ APROVADO |
-| P24 | Botão "Adicionar" habilitado com cartão inválido + código válido | ❌ REPROVADO |
-| P25 | Botão "Adicionar" habilitado com cartão válido + código inválido | ❌ REPROVADO |
-| P26 | Botão "Adicionar" habilitado com cartão e código inválidos | ❌ REPROVADO |
+| P24 | Botão "Adicionar" habilitado com cartão inválido + código válido | [❌ REPROVADO](https://drive.google.com/file/d/1UGq6BjBMh8Xf26JD-dKnxOSzRi4fs2hb/view?usp=drive_link) |
+| P25 | Botão "Adicionar" habilitado com cartão válido + código inválido | [❌ REPROVADO](https://drive.google.com/file/d/1Gp3G61uu_ejVT5FN9j77tuh7oK9Q4lit/view?usp=drive_link) |
+| P26 | Botão "Adicionar" habilitado com cartão e código inválidos | [❌ REPROVADO](https://drive.google.com/file/d/1icmYGOz4nk5zr5x5VKg3qc_lQWNHIwX5/view?usp=drive_link) |
 | P27 | Sem preenchimento, botão permanece desabilitado | ✅ APROVADO |
  
 ---
