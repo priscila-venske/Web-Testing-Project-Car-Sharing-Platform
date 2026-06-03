@@ -31,19 +31,19 @@ Verificação visual da interface em estado inicial, modo Personal, mapa, tarifa
 | L1 | Exibe logotipo Urban.Routes | ✅ APROVADO |
 | L2 | Exibe texto "PLATAFORMA" | [❌ REPROVADO](https://drive.google.com/file/d/1a7ka2W9It39bT_AbbbmWpKLf49n0Oysn/view?usp=drive_link) |
 | L3 | Botão vermelho (De) e azul (Para) | ✅ APROVADO |
-| L4 | Frase "Carshering~$ X Duração: X min" — erro ortográfico e de formatação | ❌ REPROVADO |
-| L5 | Layout do botão "Reservar" divergente do especificado | ❌ REPROVADO |
+| L4 | Frase "Carshering~$ X Duração: X min" — erro ortográfico e de formatação | [❌ REPROVADO](https://drive.google.com/file/d/1t2M5meKtArEyQvGKbt0n5rCKsFSK0vo5/view?usp=drive_link) |
+| L5 | Layout do botão "Reservar" divergente do especificado | [❌ REPROVADO](https://drive.google.com/file/d/1NtrpqTMUAGXKW-dq1t6-lx12_CR2UHXJ/view?usp=drive_link) |
 | L6 | Exibe carro azul no modo Personal | ✅ APROVADO |
-| L7 | Rota não exibida no mapa | ❌ REPROVADO |
-| L8 | Carros azuis não aparecem no mapa após reservar | ❌ REPROVADO |
-| L9 | Localização do BMW ausente no mapa (Casual) | ❌ REPROVADO |
+| L7 | Rota não exibida no mapa | [❌ REPROVADO](https://drive.google.com/file/d/1H_blCEOjqCVK37a5h__yB8i3LFBydOET/view?usp=drive_link) |
+| L8 | Carros azuis não aparecem no mapa após reservar | [❌ REPROVADO](https://drive.google.com/file/d/1vr2hu1oB-3kW35hyKx-eLVQcOmUbRXT9/view?usp=drive_link) |
+| L9 | Localização do BMW ausente no mapa (Casual) | [❌ REPROVADO](https://drive.google.com/file/d/1050flMFKjDrHHBYbWIlKrDyUOd9zB1xM/view?usp=drive_link) |
 | L10 | Exibe modelo de veículo na tarifa Casual | ✅ APROVADO |
 | L11 | Exibe frase "Apenas negócios, nada extra" | ✅ APROVADO |
-| L12 | Inconsistência visual no texto de tempo/espera (Casual) | ❌ REPROVADO |
-| L13 | Ilustração sem frisos na roda/porta dianteira (Casual) | ❌ REPROVADO |
-| L14 | Texto de acessórios em letras minúsculas indevidamente | ❌ REPROVADO |
-| L15 | Info de km/duração ausente próxima ao botão "RESERVAR" | ❌ REPROVADO |
-| L11-CDM | Botão "Adicionar Carteira" sem símbolo ">" | ❌ REPROVADO |
+| L12 | Inconsistência visual no texto de tempo/espera (Casual) | [❌ REPROVADO](https://drive.google.com/file/d/1RgZeYGK47qQw5-OvqGA171kYa4U2FSQ1/view?usp=drive_link) |
+| L13 | Ilustração sem frisos na roda/porta dianteira (Casual) | [❌ REPROVADO](https://drive.google.com/file/d/1db51WjGnprbATGYnJe67lxmfPPkMDz_t/view?usp=drive_link) |
+| L14 | Texto de acessórios em letras minúsculas indevidamente | [❌ REPROVADO](https://drive.google.com/file/d/1LjlXc_fvjjYilhNoqCSg7dmsK_eXW_FS/view?usp=drive_link) |
+| L15 | Info de km/duração ausente próxima ao botão "RESERVAR" | [❌ REPROVADO](https://drive.google.com/file/d/1Z8LzMKZeDxfqF268Jhcb13d81zeFASMd/view?usp=drive_link) |
+| L11-CDM | Botão "Adicionar Carteira" sem símbolo ">" | [❌ REPROVADO](https://drive.google.com/file/d/1v6hq-i0-4EoOX3hyOjTxlypAzsruiKLo/view?usp=drive_link) |
 | L12-CDM | Campo sem destaque verde/ícone de verificação após carteira válida | ❌ REPROVADO |
 | L13-POP | Pop-up exibe apenas "O carro foi reservado" sem dados completos | ❌ REPROVADO |
 | L14-POP | Nome do veículo ausente na confirmação | ❌ REPROVADO |
