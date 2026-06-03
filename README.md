@@ -93,9 +93,9 @@ Validação dos campos e comportamentos da janela de pagamento.
 | ID | Descrição resumida | Resultado |
 |----|--------------------|-----------|
 | R1 | Reserva com todos os campos preenchidos corretamente | ✅ APROVADO |
-| R2 | Janela "Carteira adicionada" ausente ao reservar sem carteira | ❌ REPROVADO |
-| R3 | Janela "Cartão adicionado" ausente ao reservar sem pagamento | ❌ REPROVADO |
-| R4 | Botão "Reservar" permanece ativo após excluir endereços | ❌ REPROVADO |
+| R2 | Janela "Carteira adicionada" ausente ao reservar sem carteira | [❌ REPROVADO](https://drive.google.com/file/d/1tHOhaYP_R17KOUnukZykuRjfdslRQGmE/view?usp=drive_link) |
+| R3 | Janela "Cartão adicionado" ausente ao reservar sem pagamento | [❌ REPROVADO](https://drive.google.com/file/d/1wXvOsSVHzI92jTLKceWwL4UpwW4zp4iU/view?usp=drive_link) |
+| R4 | Botão "Reservar" permanece ativo após excluir endereços | [❌ REPROVADO](https://drive.google.com/file/d/1rLwqLoA6upigAH4Q-ydLHIstVUz-ISzV/view?usp=drive_link) |
 | R5 | Todos os campos vazios e endereços excluídos | 🔒 BLOQUEADO |
  
 ---
@@ -105,7 +105,7 @@ Validação dos campos e comportamentos da janela de pagamento.
 | ID | Descrição resumida | Resultado |
 |----|--------------------|-----------|
 | T1 | Reserva com campos De/Para preenchidos funciona corretamente | ✅ APROVADO |
-| T2 | Cancelamento da reserva não funciona corretamente | ❌ REPROVADO |
+| T2 | Cancelamento da reserva não funciona corretamente | [❌ REPROVADO](https://drive.google.com/file/d/17xNHvyItt4BXYSmSseYaCxOO5eiO2dRn/view?usp=drive_link) |
 | T3 | Não cancelamento retorna à tela "Carro reservado" | 🔒 BLOQUEADO |
  
 ---
