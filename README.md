@@ -1,57 +1,73 @@
 # 🚗 Urban Routes — Web Testing Project · Car Sharing Platform
  
-> Projeto de testes de software aplicado à plataforma **Urban Routes**, cobrindo testes de layout, validação de formulários, lógica do botão de reserva e fluxos de locação.
- 
+> Software testing project applied to the **Urban Routes** platform, covering layout testing, form validation, booking button logic, and rental workflows.
+
+---
+
+## Objective
+
+Planning, documentation, and execution of testing activities for a car-sharing web application, focusing on functional validation, usability, responsiveness, and cross-browser compatibility.
+
 ---
  
-## 📋 Visão Geral
+## 📋 Overview
  
-Este repositório documenta a execução completa de um ciclo de testes manuais na plataforma web **Urban Routes** (Car Sharing), incluindo checklists de layout, casos de teste funcionais e relatórios de bugs no formato Jira.
+This repository documents the complete execution of a manual testing cycle on the **Urban Routes** (Car Sharing) web platform, including layout checklists, functional test cases, and Jira-format bug reports.
  
-| Item                    | Detalhe                          |
+| Item | Detail |
 |-------------------------|----------------------------------|
-| **Plataforma**          | Urban Routes – Car Sharing Web   |
-| **Navegador**           | Google Chrome                    |
-| **Resolução**           | 800 × 600 px                     |
-| **Total de itens testados** | 60+                          |
-| **Bugs encontrados (REPROVADO)** | 33                    |
-| **Itens aprovados**     | 20+                              |
-| **Itens bloqueados**    | 5                                |
- 
+| **Platform** | Urban Routes – Car Sharing Web |
+| **Browser** | Google Chrome |
+| **Resolution** | 800 × 600 px |
+| **Total items tested** | 60+ |
+| **Bugs found (FAILED)** | 33 |
+| **Approved items** | 20+ |
+| **Blocked items** | 5 |
+
 ---
+
+## Tools Used
+
+Figma  
+Google Chrome DevTools  
+Firefox Developer Tools  
+Jira  
+Git/GitHub
+
+---
+
+## 🧪 Test Scope
  
-## 🧪 Escopo dos Testes
+### Tab 1 — Layout Checklist
  
-### Aba 1 — Checklist de Layout
+Visual verification of the interface in its initial state, Personal mode, map, Casual fare, driver's license section, and confirmation pop-up.
  
-Verificação visual da interface em estado inicial, modo Personal, mapa, tarifa Casual, carteira de motorista e pop-up de confirmação.
- 
-| ID | Descrição resumida | Resultado |
+| ID | Brief Description | Result |
 |----|--------------------|-----------|
-| L1 | Exibe logotipo Urban.Routes | ✅ APROVADO |
-| L2 | Exibe texto "PLATAFORMA" | [❌ REPROVADO](https://drive.google.com/file/d/1a7ka2W9It39bT_AbbbmWpKLf49n0Oysn/view?usp=drive_link) |
-| L3 | Botão vermelho (De) e azul (Para) | ✅ APROVADO |
-| L4 | Frase "Carshering~$ X Duração: X min" — erro ortográfico e de formatação | [❌ REPROVADO](https://drive.google.com/file/d/1t2M5meKtArEyQvGKbt0n5rCKsFSK0vo5/view?usp=drive_link) |
-| L5 | Layout do botão "Reservar" divergente do especificado | [❌ REPROVADO](https://drive.google.com/file/d/1NtrpqTMUAGXKW-dq1t6-lx12_CR2UHXJ/view?usp=drive_link) |
-| L6 | Exibe carro azul no modo Personal | ✅ APROVADO |
-| L7 | Rota não exibida no mapa | [❌ REPROVADO](https://drive.google.com/file/d/1H_blCEOjqCVK37a5h__yB8i3LFBydOET/view?usp=drive_link) |
-| L8 | Carros azuis não aparecem no mapa após reservar | [❌ REPROVADO](https://drive.google.com/file/d/1vr2hu1oB-3kW35hyKx-eLVQcOmUbRXT9/view?usp=drive_link) |
-| L9 | Localização do BMW ausente no mapa (Casual) | [❌ REPROVADO](https://drive.google.com/file/d/1050flMFKjDrHHBYbWIlKrDyUOd9zB1xM/view?usp=drive_link) |
-| L10 | Exibe modelo de veículo na tarifa Casual | ✅ APROVADO |
-| L11 | Exibe frase "Apenas negócios, nada extra" | ✅ APROVADO |
-| L12 | Inconsistência visual no texto de tempo/espera (Casual) | [❌ REPROVADO](https://drive.google.com/file/d/1RgZeYGK47qQw5-OvqGA171kYa4U2FSQ1/view?usp=drive_link) |
-| L13 | Ilustração sem frisos na roda/porta dianteira (Casual) | [❌ REPROVADO](https://drive.google.com/file/d/1db51WjGnprbATGYnJe67lxmfPPkMDz_t/view?usp=drive_link) |
-| L14 | Texto de acessórios em letras minúsculas indevidamente | [❌ REPROVADO](https://drive.google.com/file/d/1LjlXc_fvjjYilhNoqCSg7dmsK_eXW_FS/view?usp=drive_link) |
-| L15 | Info de km/duração ausente próxima ao botão "RESERVAR" | [❌ REPROVADO](https://drive.google.com/file/d/1Z8LzMKZeDxfqF268Jhcb13d81zeFASMd/view?usp=drive_link) |
-| L11-CDM | Botão "Adicionar Carteira" sem símbolo ">" | [❌ REPROVADO](https://drive.google.com/file/d/1v6hq-i0-4EoOX3hyOjTxlypAzsruiKLo/view?usp=drive_link) |
-| L12-CDM | Campo sem destaque verde/ícone de verificação após carteira válida | [❌ REPROVADO](https://drive.google.com/file/d/1iH6RJHUzh4omiPOle642xts5GK68XIG1/view?usp=drive_link) |
-| L13-POP | Pop-up exibe apenas "O carro foi reservado" sem dados completos | [❌ REPROVADO](https://drive.google.com/file/d/1KKtFbjLpBQAIsQn8A7hOHpC9ZA2TdTJs/view?usp=drive_link) |
-| L14-POP | Nome do veículo ausente na confirmação | [❌ REPROVADO](https://drive.google.com/file/d/1nbOBK_bw3RWm3oh_0fdltduXzs8N9HzH/view?usp=drive_link) |
-| L15-POP | Ilustração sem frisos no pop-up de confirmação | [❌ REPROVADO](https://drive.google.com/file/d/1WVnLCUSToB4_3gmAvCzg41lhEojcmNwL/view?usp=drive_link) |
-| L16-POP | Botão "Cancelar" inativo na tela de confirmação | [❌ REPROVADO](https://drive.google.com/file/d/17uaJ0rGu_XBLxR35oPo8D1HtX0x4ZOeJ/view?usp=drive_link) |
-| L17-POP | Custo não exibido no formato "Custo – $X" | [❌ REPROVADO](https://drive.google.com/file/d/196sJ-rD-D_fW5MtXBDKRhCr3w0fdkqpW/view?usp=drive_link) |
-| L18 | Pop-up de cancelamento exibe mensagem correta | 🔒 BLOQUEADO |
-| L19 | Mensagem de corrida cancelada exibida corretamente | 🔒 BLOQUEADO |
+| L1 | Displays Urban.Routes logo | ✅ PASSED |
+| L2 | Displays "PLATFORM" text | [❌ FAILED](https://drive.google.com/file/d/1a7ka2W9It39bT_AbbbmWpKLf49n0Oysn/view?usp=drive_link) |
+| L3 | Red (From) and blue (To) button | ✅ PASSED |
+| L4 | Phrase "Carshering~$ X Duration: X min" — spelling and formatting error | [❌ FAILED](https://drive.google.com/file/d/1t2M5meKtArEyQvGKbt0n5rCKsFSK0vo5/view?usp=drive_link) |
+| L5 | "Book" button layout differs from specification | [❌ FAILED](https://drive.google.com/file/d/1NtrpqTMUAGXKW-dq1t6-lx12_CR2UHXJ/view?usp=drive_link) |
+| L6 | Displays blue car in Personal mode | ✅ PASSED |
+| L7 | Route not displayed on map | [❌ FAILED](https://drive.google.com/file/d/1H_blCEOjqCVK37a5h__yB8i3LFBydOET/view?usp=drive_link) |
+| L8 | Blue cars do not appear on the map after booking | [❌ FAILED](https://drive.google.com/file/d/1vr2hu1oB-3kW35hyKx-eLVQcOmUbRXT9/view?usp=drive_link) |
+| L9 | BMW location missing on map (Casual) | [❌ FAILED](https://drive.google.com/file/d/1050flMFKjDrHHBYbWIlKrDyUOd9zB1xM/view?usp=drive_link) |
+ L10 | Displays vehicle model in Casual fare | ✅ PASSED |
+| L11 | Displays phrase "Business only, nothing extra" | ✅ PASSED |
+| L12 | Visual inconsistency in time/wait text (Casual) | [❌ FAILED](https://drive.google.com/file/d/1RgZeYGK47qQw5-OvqGA171kYa4U2FSQ1/view?usp=drive_link) |
+| L13 | Illustration missing trim details on wheel/front door (Casual) | [❌ FAILED](https://drive.google.com/file/d/1db51WjGnprbATGYnJe67lxmfPPkMDz_t/view?usp=drive_link) |
+| L14 | Accessories text incorrectly displayed in lowercase | [❌ FAILED](https://drive.google.com/file/d/1LjlXc_fvjjYilhNoqCSg7dmsK_eXW_FS/view?usp=drive_link) |
+| L15 | Distance/duration info missing near "BOOK" button | [❌ FAILED](https://drive.google.com/file/d/1Z8LzMKZeDxfqF268Jhcb13d81zeFASMd/view?usp=drive_link) |
+| L11-CDM | "Add License" button missing ">" symbol | [❌ FAILED](https://drive.google.com/file/d/1v6hq-i0-4EoOX3hyOjTxlypAzsruiKLo/view?usp=drive_link) |
+| L12-CDM | Field lacks green highlight/check icon after valid license | [❌ FAILED](https://drive.google.com/file/d/1iH6RJHUzh4omiPOle642xts5GK68XIG1/view?usp=drive_link) |
+| L13-POP | Pop-up displays only "The car has been booked" without full details | [❌ FAILED](https://drive.google.com/file/d/1KKtFbjLpBQAIsQn8A7hOHpC9ZA2TdTJs/view?usp=drive_link) |
+| L14-POP | Vehicle name missing in confirmation | [❌ FAILED](https://drive.google.com/file/d/1nbOBK_bw3RWm3oh_0fdltduXzs8N9HzH/view?usp=drive_link) |
+| L15-POP | Illustration missing trim details in confirmation pop-up | [❌ FAILED](https://drive.google.com/file/d/1WVnLCUSToB4_3gmAvCzg41lhEojcmNwL/view?usp=drive_link) |
+| L16-POP | "Cancel" button inactive on confirmation screen | [❌ FAILED](https://drive.google.com/file/d/17uaJ0rGu_XBLxR35oPo8D1HtX0x4ZOeJ/view?usp=drive_link) |
+| L17-POP | Cost not displayed in "Cost – $X" format | [❌ FAILED](https://drive.google.com/file/d/196sJ-rD-D_fW5MtXBDKRhCr3w0fdkqpW/view?usp=drive_link) |
+| L18 | Cancellation pop-up displays correct message | 🔒 BLOCKED |
+| L19 | Ride canceled message displayed correctly | 🔒 BLOCKED |
  
 ---
  
