@@ -26,16 +26,6 @@ This repository documents the complete execution of a manual testing cycle on th
 
 ---
 
-## Tools Used
-
-Figma  
-Google Chrome DevTools  
-Firefox Developer Tools  
-Jira  
-Git/GitHub
-
----
-
 ## 🧪 Test Scope
  
 ### Tab 1 — Layout Checklist
@@ -68,125 +58,119 @@ Visual verification of the interface in its initial state, Personal mode, map, C
 | L17-POP | Cost not displayed in "Cost – $X" format | [❌ FAILED](https://drive.google.com/file/d/196sJ-rD-D_fW5MtXBDKRhCr3w0fdkqpW/view?usp=drive_link) |
 | L18 | Cancellation pop-up displays correct message | 🔒 BLOCKED |
 | L19 | Ride canceled message displayed correctly | 🔒 BLOCKED |
- 
+
 ---
+
+### Tab 2 — Checklist: Payment Method and Add Card
  
-### Aba 2 — Checklist: Método de Pagamento e Adicionar Cartão
+Validation of fields and behaviors in the payment window.
  
-Validação dos campos e comportamentos da janela de pagamento.
- 
-| ID | Descrição resumida | Resultado |
+| ID | Brief Description | Result |
 |----|--------------------|-----------|
-| P1 | Campo exibido vazio no estado inicial | ✅ APROVADO |
-| P2 | Exige ao menos 1 cartão para concluir reserva | ✅ APROVADO |
-| P3 | Sem restrição de quantidade de cartões | ✅ APROVADO |
-| P4 | Últimos 4 dígitos do cartão não exibidos após adição | [❌ REPROVADO](https://drive.google.com/file/d/1DjixQs-s0CcdQGE19o2wzCiFG3Ci2NPW/view?usp=drive_link) |
-| P5 | Botão "Cancelar" fecha janela de cadastro | ✅ APROVADO |
-| P6 | Botão "X" fecha janela de cadastro | ✅ APROVADO |
-| P7 | Formato nnnn nnnn nnnn aceito | ✅ APROVADO |
-| P8 | Campo aceita caracteres não numéricos | [❌ REPROVADO](https://drive.google.com/file/d/1-rnKBOl6AKc9rCh81nzUfHzVpWK_zNMS/view?usp=drive_link) |
-| P9 | Validação de intervalo 0000–9999 por bloco não funciona | [❌ REPROVADO](https://drive.google.com/file/d/1CkPsu4YbmCAdzYEcKWZ3W75uaUf08S4B/view?usp=drive_link) |
-| P10 | Espaços não inseridos automaticamente ao sair do campo | [❌ REPROVADO](https://drive.google.com/file/d/1xHJrMFzVzd_njlV1D9xW-0L-wt7Dj4ye/view?usp=drive_link) |
-| P11 | Botão "Adicionar" inativo com menos de 12 símbolos | ✅ APROVADO |
-| P12 | Campo permite inserir mais de 12 símbolos | [❌ REPROVADO](https://drive.google.com/file/d/1e4p-ET9CwXTHY4dc-0uu9P6VnlK9xkE5/view?usp=drive_link) |
-| P13 | Formato do código: 2 símbolos | ✅ APROVADO |
-| P14 | Código aceita somente números | ✅ APROVADO |
-| P15 | Campo "Código" permite inserir "00" | [❌ REPROVADO](https://drive.google.com/file/d/1qXvaARv9fqO-blRuBTtZToeCiooTd9XG/view?usp=drive_link) |
-| P16–P19 | Valores 01, 02, 98, 99 aceitos corretamente | ✅ APROVADO |
-| P20 | Campo "Código" permite inserir "100" | [❌ REPROVADO](https://drive.google.com/file/d/1K-CTt2UD_O4a--4DGHXG3e9xqEbWRdJQ/view?usp=drive_link) |
-| P21 | Botão "Adicionar" ativo com menos de 2 símbolos no código | [❌ REPROVADO](https://drive.google.com/file/d/1SMIR3AQrhYn4gU4-vXZbxNOjPh__dElq/view?usp=drive_link) |
-| P22 | Campo aceita caracteres fora dos requisitos | [❌ REPROVADO](https://drive.google.com/file/d/1f4ZMgvmx6QXi5joyGAW_kkYCrtUO5Qi9/view?usp=drive_link) |
-| P23 | Cartão e código válidos habilitam botão "Adicionar" | ✅ APROVADO |
-| P24 | Botão "Adicionar" habilitado com cartão inválido + código válido | [❌ REPROVADO](https://drive.google.com/file/d/1UGq6BjBMh8Xf26JD-dKnxOSzRi4fs2hb/view?usp=drive_link) |
-| P25 | Botão "Adicionar" habilitado com cartão válido + código inválido | [❌ REPROVADO](https://drive.google.com/file/d/1Gp3G61uu_ejVT5FN9j77tuh7oK9Q4lit/view?usp=drive_link) |
-| P26 | Botão "Adicionar" habilitado com cartão e código inválidos | [❌ REPROVADO](https://drive.google.com/file/d/1icmYGOz4nk5zr5x5VKg3qc_lQWNHIwX5/view?usp=drive_link) |
-| P27 | Sem preenchimento, botão permanece desabilitado | ✅ APROVADO |
- 
+| P1 | Field displayed empty in initial state | ✅ PASSED |
+| P2 | Requires at least 1 card to complete booking | ✅ PASSED |
+| P3 | No restriction on number of cards | ✅ PASSED |
+| P4 | Last 4 digits of card not displayed after adding | [❌ FAILED](https://drive.google.com/file/d/1DjixQs-s0CcdQGE19o2wzCiFG3Ci2NPW/view?usp=drive_link) |
+| P5 | "Cancel" button closes registration window | ✅ PASSED |
+| P6 | "X" button closes registration window | ✅ PASSED |
+| P7 | Format nnnn nnnn nnnn accepted | ✅ PASSED |
+| P8 | Field accepts non-numeric characters | [❌ FAILED](https://drive.google.com/file/d/1-rnKBOl6AKc9rCh81nzUfHzVpWK_zNMS/view?usp=drive_link) |
+| P9 | Validation of range 0000–9999 per block does not work | [❌ FAILED](https://drive.google.com/file/d/1CkPsu4YbmCAdzYEcKWZ3W75uaUf08S4B/view?usp=drive_link) |
+| P10 | Spaces not inserted automatically when leaving field | [❌ FAILED](https://drive.google.com/file/d/1xHJrMFzVzd_njlV1D9xW-0L-wt7Dj4ye/view?usp=drive_link) |
+| P11 | "Add" button inactive with fewer than 12 symbols | ✅ PASSED |
+| P12 | Field allows entering more than 12 symbols | [❌ FAILED](https://drive.google.com/file/d/1e4p-ET9CwXTHY4dc-0uu9P6VnlK9xkE5/view?usp=drive_link) |
+| P13 | Code format: 2 symbols | ✅ PASSED |
+| P14 | Code accepts numbers only | ✅ PASSED |
+| P15 | "Code" field allows entering "00" | [❌ FAILED](https://drive.google.com/file/d/1qXvaARv9fqO-blRuBTtZToeCiooTd9XG/view?usp=drive_link) |
+| P16–P19 | Values 01, 02, 98, 99 accepted correctly | ✅ PASSED |
+| P20 | "Code" field allows entering "100" | [❌ FAILED](https://drive.google.com/file/d/1K-CTt2UD_O4a--4DGHXG3e9xqEbWRdJQ/view?usp=drive_link) |
+| P21 | "Add" button active with fewer than 2 code symbols | [❌ FAILED](https://drive.google.com/file/d/1SMIR3AQrhYn4gU4-vXZbxNOjPh__dElq/view?usp=drive_link) |
+| P22 | Field accepts characters outside requirements | [❌ FAILED](https://drive.google.com/file/d/1f4ZMgvmx6QXi5joyGAW_kkYCrtUO5Qi9/view?usp=drive_link) |
+| P23 | Valid card and code enable "Add" button | ✅ PASSED |
+| P24 | "Add" button enabled with invalid card + valid code | [❌ FAILED](https://drive.google.com/file/d/1UGq6BjBMh8Xf26JD-dKnxOSzRi4fs2hb/view?usp=drive_link) |
+| P25 | "Add" button enabled with valid card + invalid code | [❌ FAILED](https://drive.google.com/file/d/1Gp3G61uu_ejVT5FN9j77tuh7oK9Q4lit/view?usp=drive_link) |
+| P26 | "Add" button enabled with invalid card and invalid code | [❌ FAILED](https://drive.google.com/file/d/1icmYGOz4nk5zr5x5VKg3qc_lQWNHIwX5/view?usp=drive_link) |
+| P27 | Without input, button remains disabled | ✅ PASSED |
+
 ---
+
+### Tab 3 — Test Cases: "Book" Button Logic
  
-### Aba 3 — Casos de Teste: Lógica do Botão "Reservar"
- 
-| ID | Descrição resumida | Resultado |
+| ID | Brief Description | Result |
 |----|--------------------|-----------|
-| R1 | Reserva com todos os campos preenchidos corretamente | ✅ APROVADO |
-| R2 | Janela "Carteira adicionada" ausente ao reservar sem carteira | [❌ REPROVADO](https://drive.google.com/file/d/1tHOhaYP_R17KOUnukZykuRjfdslRQGmE/view?usp=drive_link) |
-| R3 | Janela "Cartão adicionado" ausente ao reservar sem pagamento | [❌ REPROVADO](https://drive.google.com/file/d/1wXvOsSVHzI92jTLKceWwL4UpwW4zp4iU/view?usp=drive_link) |
-| R4 | Botão "Reservar" permanece ativo após excluir endereços | [❌ REPROVADO](https://drive.google.com/file/d/1rLwqLoA6upigAH4Q-ydLHIstVUz-ISzV/view?usp=drive_link) |
-| R5 | Todos os campos vazios e endereços excluídos | 🔒 BLOQUEADO |
+| R1 | Booking with all fields correctly completed | ✅ PASSED |
+| R2 | "License added" window missing when booking without license | [❌ FAILED](https://drive.google.com/file/d/1tHOhaYP_R17KOUnukZykuRjfdslRQGmE/view?usp=drive_link) |
+| R3 | "Card added" window missing when booking without payment | [❌ FAILED](https://drive.google.com/file/d/1wXvOsSVHzI92jTLKceWwL4UpwW4zp4iU/view?usp=drive_link) |
+| R4 | "Book" button remains active after deleting addresses | [❌ FAILED](https://drive.google.com/file/d/1rLwqLoA6upigAH4Q-ydLHIstVUz-ISzV/view?usp=drive_link) |
+| R5 | All fields empty and addresses deleted | 🔒 BLOCKED |
  
 ---
+
+### Tab 4 — Test Cases: Booking Feature Logic (Rental)
  
-### Aba 4 — Casos de Teste: Lógica dos Recursos de Reserva (Locação)
- 
-| ID | Descrição resumida | Resultado |
+| ID | Brief Description | Result |
 |----|--------------------|-----------|
-| T1 | Reserva com campos De/Para preenchidos funciona corretamente | ✅ APROVADO |
-| T2 | Cancelamento da reserva não funciona corretamente | [❌ REPROVADO](https://drive.google.com/file/d/17xNHvyItt4BXYSmSseYaCxOO5eiO2dRn/view?usp=drive_link) |
-| T3 | Não cancelamento retorna à tela "Carro reservado" | 🔒 BLOQUEADO |
- 
+| T1 | Booking with From/To fields completed works correctly | ✅ PASSED |
+| T2 | Booking cancellation does not work correctly | [❌ FAILED](https://drive.google.com/file/d/17xNHvyItt4BXYSmSseYaCxOO5eiO2dRn/view?usp=drive_link) |
+| T3 | Choosing not to cancel returns to "Car booked" screen | 🔒 BLOCKED |
+
 ---
+
+## 🐛 Bug Summary by Severity
  
-## 🐛 Resumo dos Bugs por Severidade
- 
-| Severidade | Qtd | IDs |
+| Severity | Qty | IDs |
 |------------|-----|-----|
-| 🔴 Blocker  | 7  | L7, P24, P25, P26, R2, R3, R4, T2 |
-| 🟠 Major    | 18 | L4, L5, L8, L9, L10, L13-POP, L14-POP, L16-POP, P4, P8, P9, P12, P15, P20, P21, P22, R3, L15 |
-| 🟡 Minor    | 8  | L2, L12, L13, L14, L11-CDM, L12-CDM, L15-POP, L17-POP, P10 |
- 
+| 🔴 Blocker | 7 | L7, P24, P25, P26, R2, R3, R4, T2 |
+| 🟠 Major | 18 | L4, L5, L8, L9, L10, L13-POP, L14-POP, L16-POP, P4, P8, P9, P12, P15, P20, P21, P22, R3, L15 |
+| 🟡 Minor | 8 | L2, L12, L13, L14, L11-CDM, L12-CDM, L15-POP, L17-POP, P10 |
+
 ---
- 
-## 📊 Distribuição dos Resultados
- 
-```
-✅ APROVADO    ░░░░░░░░░░░░░░░░░░░░░  ~35%
-❌ REPROVADO   ████████████████████   ~54%
-🔒 BLOQUEADO   ░░░░░░                  ~8%
+
+## 📊 Results Distribution
+
+```text
+✅ PASSED      ░░░░░░░░░░░░░░░░░░░░░  ~35%
+❌ FAILED      ████████████████████   ~54%
+🔒 BLOCKED     ░░░░░░                  ~8%
 ⚠️ N/A         ░░                      ~3%
 ```
- 
+
 ---
- 
+
 ## 📁 Bug Reports
- 
-Cada bug reprovado possui um relatório individual em formato PNG com os campos:
- 
-- **ID** — identificador da coluna A da planilha
-- **Summary** — descrição objetiva do problema
-- **Environment** — navegador, resolução e componente
-- **Steps to Reproduce** — passo a passo para reprodução
-- **Expected Result** — comportamento esperado
-- **Actual Result** — comportamento observado
-- **Priority** — Alta / Média / Baixa / Crítica
+
+Each failed bug has an individual PNG report containing:
+
+- **ID** — identifier from column A of the spreadsheet
+- **Summary** — objective description of the issue
+- **Environment** — browser, resolution, and component
+- **Steps to Reproduce** — step-by-step reproduction instructions
+- **Expected Result** — expected behavior
+- **Actual Result** — observed behavior
+- **Priority** — High / Medium / Low / Critical
 - **Severity** — Blocker / Major / Minor
-> 📦 Todos os relatórios estão disponíveis no arquivo `bug_reports_urban_routes.zip` ou na pasta `/bug_reports`.
- 
----
- 
-## 🛠️ Tecnologias e Ferramentas
- 
-| Ferramenta | Uso |
-|------------|-----|
-| **Google Chrome** | Execução dos testes |
-| **Microsoft Excel / Google Sheets** | Registro dos casos e resultados |
-| **Jira** (formato) | Estrutura dos relatórios de bug |
-| **Python + Pillow** | Geração automatizada dos PNGs |
- 
----
- 
-## 👤 Autora
- 
-Projeto desenvolvido como parte do programa de formação em **QA (Quality Assurance)** — TripleTen.
- 
+
 ---
 
-### ✅ Atribuição aprovada
+## 🛠️ Technologies and Tools
 
-![Aprovação do projeto](https://drive.google.com/file/d/1l--Egh-m6dZV4n6woCF_ijHBirmgA1jp/view?usp=drive_link)
+Figma  
+Google Chrome DevTools  
+Firefox Developer Tools  
+Jira  
+Git/GitHub
 
-> *"Você praticou como analisar requisitos técnicos, aplicou técnicas de design de teste  
-> com classes de equivalência e valores de limite, e demonstrou habilidade em compor casos de teste."*  
-> — TripleTen Code Review
+---
+ 
+## 👤 Author
+
+Project developed as part of the **QA (Quality Assurance)** training program — TripleTen.
+
+---
+
+### ✅ Assignment Approved
+
+![Project Approval](https://drive.google.com/file/d/1l--Egh-m6dZV4n6woCF_ijHBirmgA1jp/view?usp=drive_link)
 
 ---
 
