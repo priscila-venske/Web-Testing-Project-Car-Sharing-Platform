@@ -166,16 +166,5 @@ Git/GitHub
 
 Project developed as part of the **QA (Quality Assurance)** training program — TripleTen.
 
----
-
-### ✅ Assignment Approved
-
-![Project Approval](https://drive.google.com/file/d/1KKMQTul40Euin1_YTdm4kPa7-lbUcA3t/view?usp=drive_link)
-
----
-
-## 📄 License
- 
-This repository is for educational use. The data and screenshots belong to the course's testing environment.
  
 
