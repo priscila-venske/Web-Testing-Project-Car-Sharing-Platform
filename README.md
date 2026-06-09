@@ -170,7 +170,7 @@ Project developed as part of the **QA (Quality Assurance)** training program —
 
 ### ✅ Assignment Approved
 
-![Project Approval](https://drive.google.com/file/d/1l--Egh-m6dZV4n6woCF_ijHBirmgA1jp/view?usp=drive_link)
+![Project Approval](https://drive.google.com/file/d/1KKMQTul40Euin1_YTdm4kPa7-lbUcA3t/view?usp=drive_link)
 
 ---
 
