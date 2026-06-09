@@ -174,8 +174,8 @@ Project developed as part of the **QA (Quality Assurance)** training program —
 
 ---
 
-## 📄 Licença
+## 📄 License
  
-Este repositório é de uso educacional. Os dados e capturas de tela pertencem ao ambiente de testes do curso.
+This repository is for educational use. The data and screenshots belong to the course's testing environment.
  
 
